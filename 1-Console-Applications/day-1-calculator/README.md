@@ -22,10 +22,15 @@ Este proyecto es una calculadora básica desarrollada en Java como parte del cur
 2. **Clona el repositorio:**  
    ```bash
    git clone https://github.com/tu-usuario/java-13-proyectos-udemy.git
+   ```
 
 3. **Navega a la carpeta del proyecto**
+    ```bash
    cd java-13-proyectos-udemy/1-Console-Applications/day-1-calculator
+    ```
 
 5. **Compila y ejecuta el programa:**
+    ```bash
    javac Calculadora.java
    java Calculadora
+    ```
