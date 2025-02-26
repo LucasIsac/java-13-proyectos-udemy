@@ -21,7 +21,7 @@ Este proyecto es un sistema para gestionar un listado de personas, desarrollado 
 
 2. **Clona el repositorio:**  
    ```bash
-   git clone https://github.com/tu-usuario/java-13-proyectos-udemy.git
+   git clone https://github.com/LucasIsac/java-13-proyectos-udemy.git
 
 3. **Navega a la carpeta del proyecto:**
    ```bash
