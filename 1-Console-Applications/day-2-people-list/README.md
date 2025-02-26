@@ -24,8 +24,12 @@ Este proyecto es un sistema para gestionar un listado de personas, desarrollado 
    git clone https://github.com/tu-usuario/java-13-proyectos-udemy.git
 
 3. **Navega a la carpeta del proyecto:**
+   ```bash
    cd java-13-proyectos-udemy/1-Console-Applications/day-2-people-list
+   ```
 
 4. **Compila y ejecuta el programa:**
+   ```bash
    javac ListadoPersonas.java
    java ListadoPersonas
+   ```
