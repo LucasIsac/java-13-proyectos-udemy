@@ -1,4 +1,4 @@
-# Calculadora en Java  
+# � Calculadora en Java  
 
 Este proyecto es una calculadora básica desarrollada en Java como parte del curso práctico de Udemy. Aplica conceptos fundamentales de programación, como variables, operadores y estructuras de control.  
 
