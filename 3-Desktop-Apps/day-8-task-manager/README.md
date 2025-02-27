@@ -47,3 +47,7 @@ Forma parte de un curso práctico de Java, donde se exploran tecnologías modern
    ```
   
 6. Ejecutar la aplicación desde la clase principal TareasApplication.java.
+
+## 🖼️ Sistema de Tareas 
+![Sistema de Tareas](Captura.PNG)
+
