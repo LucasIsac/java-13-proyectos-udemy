@@ -27,8 +27,8 @@ Forma parte de un curso práctico de Java, donde se exploran tecnologías modern
    cd java-13-proyectos-udemy/3-Desktop-Apps/day-8-task-manager
    ```
 2. Abrir el proyecto en un IDE compatible con Java (IntelliJ, NetBeans, Eclipse).
-   Asegúrate de tener MySQL instalado y en ejecución.
-   La base de datos tareas_db se creará automáticamente si no existe.
+   _ Asegúrate de tener MySQL instalado y en ejecución.
+   _ La base de datos tareas_db se creará automáticamente si no existe.
    
 4. Verificar que SQLite esté configurado correctamente en el proyecto.
    # Configuración de la conexión a MySQL  
