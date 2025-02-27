@@ -23,7 +23,7 @@ Este sistema forma parte de un curso práctico de Java, donde se exploran las te
 ## 🚀 Instrucciones de Instalación  
 1. **Clona el repositorio** en tu máquina local:  
    ```bash
-   git clone https://github.com/tu-usuario/tienda-libros-swing.git
+   git clone https://github.com/LucasIsac/tienda-libros-swing.git
    ```
 2. **Configura la base de datos MySQL:**  
    - Crea una base de datos llamada `tienda_libros`.  
@@ -41,4 +41,8 @@ Este sistema forma parte de un curso práctico de Java, donde se exploran las te
    mvn clean install
    mvn spring-boot:run
    ```
+
+
+## 🖼️ Tienda de Libros
+![Tienda de Libros](Captura.PNG)
 

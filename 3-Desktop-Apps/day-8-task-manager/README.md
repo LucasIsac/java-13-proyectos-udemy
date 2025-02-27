@@ -23,7 +23,7 @@ Forma parte de un curso práctico de Java, donde se exploran tecnologías modern
 ## 🚀 Instrucciones de Instalación  
 1. **Clona el repositorio** en tu máquina local:  
    ```bash
-   git clone https://github.com/tu-usuario/java-13-proyectos-udemy.git
+   git clone https://github.com/LucasIsac/java-13-proyectos-udemy.git
    cd java-13-proyectos-udemy/3-Desktop-Apps/day-8-task-manager
    ```
 2. Abrir el proyecto en un IDE compatible con Java (IntelliJ, NetBeans, Eclipse).
@@ -47,3 +47,7 @@ Forma parte de un curso práctico de Java, donde se exploran tecnologías modern
    ```
   
 6. Ejecutar la aplicación desde la clase principal TareasApplication.java.
+
+## 🖼️ Sistema de Tareas 
+![Sistema de Tareas](Captura.PNG)
+
