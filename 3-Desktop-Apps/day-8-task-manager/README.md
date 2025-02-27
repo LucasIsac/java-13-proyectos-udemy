@@ -1,27 +1,48 @@
-# 📝 Día 8 - Sistema de Tareas
+# ✅ Sistema de Tareas con Java Swing y Spring Boot  
 
-## 📌 Descripción  
-El **Sistema de Tareas** es una aplicación de escritorio desarrollada en Java con Swing y SQLite.  
-Permite gestionar tareas pendientes, organizarlas por prioridad y establecer fechas de vencimiento.
+## 🖍️ Descripción  
+Este proyecto es una **aplicación de escritorio para la gestión de tareas**, desarrollada con **Java Swing y Spring Boot**. Permite **crear, editar, eliminar y organizar tareas** según su estado y prioridad, utilizando **MySQL** para la persistencia de datos.  
 
-## 📂 Tecnologías utilizadas  
-- Java 13  
-- Swing (Interfaz gráfica)  
-- SQLite (Base de datos local)  
+Forma parte de un curso práctico de Java, donde se exploran tecnologías modernas para la creación de sistemas de gestión eficientes y escalables.  
 
-## 🚀 Características  
-✅ Agregar, editar y eliminar tareas  
-✅ Filtrar tareas por estado (pendiente, en progreso, completada)  
-✅ Guardado y carga automática de tareas en SQLite  
-✅ Interfaz gráfica intuitiva con Swing  
+## 🛠️ Tecnologías Usadas  
+- **Lenguaje:** Java 13 o superior.  
+- **Interfaz gráfica:** Java Swing.  
+- **Framework:** Spring Boot.  
+- **Persistencia de Datos:** JPA (Java Persistence API) con Hibernate.  
+- **Base de Datos:** MySQL.  
+- **Herramientas:** IntelliJ IDEA / NetBeans / Eclipse (cualquier IDE compatible con Java).  
 
-## ⚙ Instalación y ejecución  
-1. Clonar el repositorio:  
-   ```sh
-   git clone https://github.com/tu_usuario/java-13-proyectos-udemy.git
+## 🔥 Características  
+- Aplicación de escritorio con una interfaz gráfica intuitiva basada en Java Swing.  
+- Permite gestionar tareas con funcionalidades de **agregar, modificar, eliminar y visualizar**.  
+- Organización de tareas por **estado** (pendiente, en progreso, completada).  
+- Uso de **Spring Boot y JPA** para la gestión y persistencia de datos en **MySQL**.  
+- Arquitectura basada en **MVC (Modelo-Vista-Controlador)** para mejorar la organización del código.  
+
+## 🚀 Instrucciones de Instalación  
+1. **Clona el repositorio** en tu máquina local:  
+   ```bash
+   git clone https://github.com/tu-usuario/java-13-proyectos-udemy.git
    cd java-13-proyectos-udemy/3-Desktop-Apps/day-8-task-manager
-    ```
-
+   ```
 2. Abrir el proyecto en un IDE compatible con Java (IntelliJ, NetBeans, Eclipse).
-3. Verificar que SQLite esté configurado correctamente en el proyecto.
-4. Ejecutar la aplicación desde la clase principal TaskManagerApp.java.
+   Asegúrate de tener MySQL instalado y en ejecución.
+   La base de datos tareas_db se creará automáticamente si no existe.
+   
+4. Verificar que SQLite esté configurado correctamente en el proyecto.
+   # Configuración de la conexión a MySQL  
+   spring.datasource.url=jdbc:mysql://localhost:3306/tareas_db?createDatabaseIfNotExist=true
+   spring.datasource.username=root
+   spring.datasource.password=
+   spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+   # Configuración de JPA y Hibernate  
+   spring.jpa.hibernate.ddl-auto=update
+   spring.jpa.show-sql=true
+
+   # Desactivar servidor web de Spring Boot  
+   spring.main.web-application-type=none
+
+  
+6. Ejecutar la aplicación desde la clase principal TareasApplication.java.
