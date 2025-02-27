@@ -42,3 +42,7 @@ Este sistema forma parte de un curso práctico de Java, donde se exploran las te
    mvn spring-boot:run
    ```
 
+
+## 🖼️ Captura de Pantalla  
+![Tienda de Libros](Captura.png)
+
