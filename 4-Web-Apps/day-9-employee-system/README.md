@@ -24,7 +24,7 @@ Este sistema forma parte de un curso práctico de Java, explorando tecnologías 
 ## 🚀 Instrucciones de Instalación  
 1. **Clona el repositorio en tu máquina local:**
    ```bash
-   git clone https://github.com/tu-usuario/sistema-empleados.git
+   git clone https://github.com/LucasIsac/sistema-empleados.git
    ```
 
 2. **Modifica el archivo application.properties en src/main/resources con tus credenciales de MySQL:**
