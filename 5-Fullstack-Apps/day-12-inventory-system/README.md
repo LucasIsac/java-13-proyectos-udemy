@@ -29,5 +29,59 @@ Este proyecto es una **aplicación fullstack** que permite gestionar un sistema 
 #### **Backend (Spring Boot)**  
 1. **Clona el repositorio:**  
    ```bash
-   git clone https://github.com/tu-usuario/java-13-proyectos-udemy.git
+   git clone https://github.com/LucasIsac/java-13-proyectos-udemy.git
    ```
+
+2. **Navega a la carpeta del proyecto:**
+   ```bash
+    cd java-13-proyectos-udemy/5-Fullstack-Apps/day-12-inventory-system/backend
+   ```
+
+3. **Configura la base de datos:**
+   - Asegúrate de que MySQL esté en ejecución.
+
+   - El archivo `application.properties` ya está configurado para usar la base de datos `contactos_db`. Si no existe, se creará automáticamente gracias a la opción `createDatabaseIfNotExist=true`.
+
+   - Verifica que las credenciales de MySQL coincidan con las de tu entorno. El archivo `application.properties` contiene:
+     ````properties
+     # Conexión MySQL
+      spring.datasource.url = jdbc:mysql://localhost:3306/inventario_db?createDatabaseIfNotExist=true
+      spring.datasource.username = root
+      spring.datasource.password =
+      spring.datasource.driver-class-name = com.mysql.cj.jdbc.Driver
+
+      # Configuración de Hibernate
+      spring.jpa.hibernate.ddl-auto = update
+      spring.jpa.show-sql = true
+     ````
+
+   - Si tu usuario de MySQL no es `root` o si tienes una contraseña, actualiza las propiedades `spring.datasource.username` y `spring.datasource.password`.
+     
+4. **Compila y ejecuta el proyecto:**
+   - Usa Maven para compilar y ejecutar la aplicación:
+   ```bash
+   mvn spring-boot:run
+   ```
+
+**FrontEnd(Angular)**
+
+1. **Navega a la carpeta del frontend:**
+   ```bash
+     cd java-13-proyectos-udemy/5-Fullstack-Apps/day-12-inventory-system/frontend
+   ```
+
+2. **Instala las dependencias:**
+    ```bash
+     npm install
+   ```
+
+3. **Ejecuta el frontend:**
+    ```bash
+     ng serve
+   ```
+
+## 📸 **Sistema de Inventario**  
+![Sistema de Inventario - Inicio](Inicio.PNG)
+![Sistema de Inventario - Agregar](Agregar.PNG)
+![Sistema de Inventario - Editar](Editar.PNG)
+
