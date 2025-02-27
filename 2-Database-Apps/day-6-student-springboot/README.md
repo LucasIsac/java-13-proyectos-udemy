@@ -1,6 +1,7 @@
 # 🎓 Sistema de Estudiantes con Spring Boot  
 
-Este proyecto es un sistema CRUD para gestionar estudiantes, desarrollado en Java como parte del curso práctico de Udemy. Utiliza Spring Boot y JPA para simplificar el acceso a la base de datos MySQL.  
+## 📚 **Descripción**  
+Este proyecto es una **evolución del sistema CRUD** del Día 5, pero ahora implementado con **Spring Boot** y **JPA** para simplificar el desarrollo. Permite gestionar estudiantes (crear, leer, actualizar y eliminar registros) conectándose a una base de datos MySQL. Este sistema fue desarrollado como parte de un curso práctico de Java, donde se aplicaron tecnologías modernas como Spring Boot para agilizar el desarrollo.  
 
 ## 🛠️ **Tecnologías Usadas**  
 - **Lenguaje:** Java (versión 17 o superior).  
