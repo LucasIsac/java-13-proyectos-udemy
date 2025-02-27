@@ -31,7 +31,7 @@ Este sistema forma parte de un curso práctico de Java, donde se exploran las te
 
 3. **Modifica el archivo `application.properties` en `src/main/resources`** con tus credenciales de MySQL:  
    ```properties
-   spring.datasource.url=jdbc:mysql://localhost:3306/tienda_libros
+   spring.datasource.url=jdbc:mysql://localhost:3306/tienda_libros_db?createDatabaseIfNotExist=true
    spring.datasource.username=tu_usuario
    spring.datasource.password=tu_contraseña
    ```
