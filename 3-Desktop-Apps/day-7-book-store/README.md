@@ -43,6 +43,6 @@ Este sistema forma parte de un curso práctico de Java, donde se exploran las te
    ```
 
 
-## 🖼️ Captura de Pantalla  
+## 🖼️ Tienda de Libros
 ![Tienda de Libros](Captura.PNG)
 
