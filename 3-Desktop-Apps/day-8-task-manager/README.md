@@ -31,6 +31,7 @@ Forma parte de un curso práctico de Java, donde se exploran tecnologías modern
    - La base de datos tareas_db se creará automáticamente si no existe.
    
 4. Verificar que SQLite esté configurado correctamente en el proyecto.
+   ```properties
    # Configuración de la conexión a MySQL  
    spring.datasource.url=jdbc:mysql://localhost:3306/tareas_db?createDatabaseIfNotExist=true
    spring.datasource.username=root
@@ -43,6 +44,6 @@ Forma parte de un curso práctico de Java, donde se exploran tecnologías modern
 
    # Desactivar servidor web de Spring Boot  
    spring.main.web-application-type=none
-
+   ```
   
 6. Ejecutar la aplicación desde la clase principal TareasApplication.java.
